@@ -23,6 +23,9 @@ script : |
   sudo add-apt-repository ppa:ondrej/php5 -y
   sudo apt-get update
 
+  # Installing extra dependencies
+  sudo apt-get install unzip
+
   # Needed to build PHP with php-build
   sudo apt-get build-dep php5-cli
   sudo apt-get install libreadline-dev
