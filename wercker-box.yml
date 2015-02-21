@@ -24,7 +24,7 @@ script : |
   sudo apt-get update
 
   # Installing extra dependencies
-  sudo apt-get install unzip
+  sudo apt-get install zip
 
   # Needed to build PHP with php-build
   sudo apt-get build-dep php5-cli
